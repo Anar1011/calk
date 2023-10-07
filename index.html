@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: red;
+            height: 70px;
+            border: 6px solid yellow;
+        }
+
+        .content {
+            height: calc(100% - 70px);
+            background-image: url(man.jpg);
+        }
+
+        span {
+            display: inline-block;
+            width: calc(100% / 3);
+            background-color: gray;
+            color: white;
+        }
+
+        .box {
+            height: 100px;
+            border: 2px solid blue;
+            overflow: auto;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        MANCHESTER UNITED
+    </div>
+    <div class="content">
+        <span>Alex Ferguson</span><span>David Moyes</span><span>Jose Mourinho</span><span>Erik ten Hag</span><span>Ron Atkinson</span><span>Ryan Giggs</span>
+        <div class="box">
+            Martihal <br>
+            Antony <br>
+            Rashford <br>
+            Fernandens <br>
+            Casemiro <br>
+            Mount <br>
+            Shaw <br>
+            Martinez <br>
+            Varane <br>
+            Wan-Bisakka <br>
+            de Gea <br>
+        </div>
+    </div>
+</body>
+</html>
